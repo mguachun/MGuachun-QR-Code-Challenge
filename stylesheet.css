@@ -1,4 +1,8 @@
 body {
     font-family: 'Dongle', sans-serif;
-    font-family: 'Work Sans', sans-serif
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11px;
+}
+.card-body {
+    color: hsl(228, 45%, 44%);
 }
