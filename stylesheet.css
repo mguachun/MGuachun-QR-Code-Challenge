@@ -35,5 +35,34 @@ body {
     margin: auto;
     max-width: 80%;
     padding: 12px;
-    
+    position: relative;
+    top: 15vh;
+    width: 280px;
+
+}
+
+.card .qr-container {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.card .qr-container .qr-code {
+    height: 100%;
+    width: 100%;
+}
+
+.card .info {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.card .info .title {
+    color: var(--dark-blue);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+
 }
