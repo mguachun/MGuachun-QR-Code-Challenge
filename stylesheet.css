@@ -66,12 +66,12 @@ body {
     margin: 20px 0;
 }
 
-.subtext {
+.card .info .subtext {
     color: var(--grayish-blue);
     margin-bottom: 20px;
 }
 
-.coded {
+.attribution {
     color: var(--dark-blue);
     font-size: 12px;
     text-align: center;
@@ -79,13 +79,13 @@ body {
     position: relative;
     top: 15vh;
 }
-.coded a {
+.attribution a {
     color: var(--dark-blue);
     text-decoration: none;
     transition: color .3s ease-in-out;
 }
 
-.coded a:focus,
-.coded a:hover {
+.attribution a:focus,
+.attribution a:hover {
     color: var(--grayish-blue);
 }
